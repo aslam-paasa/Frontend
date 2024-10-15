@@ -10,9 +10,9 @@ JSX Expression and Props
 7. Passing Array Data [done]
 
 Conditional Styling
-8. Conditional Styling
-9. Conditional Styling
-10. Conditional Styling
+8. Conditional Styling [done]
+9. Conditional Styling [done]
+10. Conditional Styling [done]
 
 Changing State upon Event
 11. Changing State upon Event

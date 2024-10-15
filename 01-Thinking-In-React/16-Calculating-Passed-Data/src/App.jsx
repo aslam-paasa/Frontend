@@ -9,17 +9,26 @@
 */
 
 const myCart = [
-  { id: 1, name: "aloo parantha", price: 80 },
+  { id: 1, name: "Aloo Parantha", price: 80 },
   { id: 2, name: "Onion Capcisum Pizza", price: 180 },
   { id: 3, name: "Pav Bhaji", price: 40 },
   { id: 4, name: "French Toast", price: 100 },
-
 ]
 
 function App() {
 
   return (
     <div>
+      <h1>My Cart</h1>
+      <ol>
+        {myCart.map(({id, name, price}) => (
+          <li key={id}>
+            {name}: Rs. {price}
+          </li>
+        ))}
+      </ol>
+
+      <p>Total Price: {myCart.reduce((totalPrice, item) => (totalPrice += item.price), 0)}</p>
     </div>
   )
 }

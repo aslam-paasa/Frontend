@@ -24,3 +24,7 @@ function understandingScope() {
     console.log(a); // => undefined (Reference Error)
     console.log(b); // => 2
 }
+
+/**
+ * 'let' is a var with boundaries.
+*/

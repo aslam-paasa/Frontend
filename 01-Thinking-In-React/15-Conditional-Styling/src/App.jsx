@@ -15,8 +15,14 @@ function App() {
 
   return (
     <div>
+      <h1>Employee List</h1>
+      {employees.map((employee) => (
+        <li key={employee.id} style={{border: employee.workExperience > 5 ? "4px solid orange" : "", padding: "4px"}}>
+          {employee.name}: {employee.workExperience} years
+        </li>
+      ))}
     </div>
-  )
+  );
 }
 
 export default App
