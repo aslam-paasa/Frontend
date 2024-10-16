@@ -16,8 +16,8 @@ Conditional Styling
 
 Changing State upon Event
 11. Changing State upon Event [done]
-12. Changing State Upon Event
-13. Changing State upon Event
+12. Changing State Upon Event [done]
+13. Changing State upon Event [done]
 
 API calls:
 14. Making API Call
